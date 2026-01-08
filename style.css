@@ -370,6 +370,11 @@ body{
     color: var(--main-color);
 }
 
+.skills-content .content span img{
+    width: 3rem;
+    height: 3rem;
+}
+
 .portfolio-box .img-box{
     display: flex;
     width: 100%;
