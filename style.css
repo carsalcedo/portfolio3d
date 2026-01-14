@@ -311,12 +311,38 @@ body{
     color: var(--main-color);
 }
 
+.services-content img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.services-content:nth-child(1) img {
+    border: .15rem solid #49c0ec;
+}
+
+.services-content:nth-child(2) img {
+    border: .15rem solid #f9cc85;
+}
+
+.services-content:nth-child(3) img {
+    border: .15rem solid #2253a3;
+}
+
+.services-content:nth-child(4) img {
+    border: .15rem solid #e62722;
+}
+
+
 .services-content h3{
     font: 1.1rem;
 }
 
 .services-content p{
     margin: .2rem 0 .8rem;
+    font-size: .90rem;
 }
 
 .services-content .btn{
